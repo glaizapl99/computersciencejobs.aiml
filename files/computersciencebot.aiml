@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <!--Career Advice Section-->
+    <category>
+        <pattern>I NEED CAREER ADVICE</pattern>
+        <template>
+            No problem! Please answer the following question:
+            Do you prefer to work with code or data?
+            Please type 'Code' or 'Data'.
+        </template>
+    </category>
+    
+    <!--Code choice-->
+    <category>
+        <pattern>CODE</pattern>
+        <template>
+            Do you enjoy building software or fixing issues?
+            Please type 'Building' or 'Fixing'.
+        </template>
+    </category>
+    
+    <!--Building choice-->
+    <category>
+        <pattern>BUILDING</pattern>
+        <template>
+            Do you have more interest in building business applications or games?
+            Please type 'Business' or 'Games'.
+        </template>
+    </category>
+    
+    <!--Software Engineering-->
+    <category>
+        <pattern>BUSINESS</pattern>
+        <template>
+            Great! You should seek a career in SOFTWARE ENGINEERING!
+            Here's a link to check out for more information:
+            <link>
+                <text>Coursera Software Engineering</text>
+                <url>https://www.coursera.org/courses?query=software%20engineering</url>
+            </link>
+        </template>
+    </category>
+
+    <!--Game Development-->
+    <category>
+        <pattern>GAMES</pattern>
+        <template>
+            Cool! You should seek a career in GAME DEVELOPMENT!
+            Check out this link for more information:
+            <link>
+                <text>Coursera Game Development</text>
+                <url>https://www.coursera.org/courses?query=game%20development</url>
+            </link>
+        </template>
+    </category>
+
+    <!--DevOps Engineering-->
+    <category>
+        <pattern>FIXING</pattern>
+        <template>
+            Awesome! You should check out a career in DEVOPS ENGINEERING!
+            Check out this link for more information:
+            <link>
+                <text>Coursera DevOps Engineering</text>
+                <url>https://www.coursera.org/courses?query=devops</url>
+            </link>
+        </template>
+    </category>
+
+    <!--Data choice-->
+    <category>
+        <pattern>DATA</pattern>
+        <template>
+            Do you prefer analyzing patterns or creating predicting models?
+            Please type 'Analyzing' or 'Predicting'.
+        </template>
+    </category>
+
+    <!--Data Analytics-->
+    <category>
+        <pattern>ANALYZING</pattern>
+        <template>
+            Fantastic! You should consider a career in DATA ANALYTICS!
+            Check out this link for more information:
+            <link>
+                <text>Coursera Data Analytics</text>
+                <url>https://www.coursera.org/courses?query=data%20analytics</url>
+            </link>
+        </template>
+    </category>
+    
+    <!--Machine Learning-->
+    <category>
+        <pattern>PREDICTING</pattern>
+        <template>
+            Amazing! You should consider a career in MACHINE LEARNING!
+            Check out this link for more information:
+            <link>
+                <text>Coursera Machine Learning</text>
+                <url>https://www.coursera.org/courses?query=machine%20learning&amp;skills=Machine%20Learning</url>
+            </link>
+        </template>
+    </category>
+
+</aiml>
